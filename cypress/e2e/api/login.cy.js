@@ -23,7 +23,7 @@ describe('Login API Tests com Serverest', () => {
         });
     });
 
-    it('Não permitir aceder com email inexistente', () => {
+    it('Não permitir com que aceda com email inexistente', () => {
         cy.request({
             method: 'POST',
             url:  `${baseUrl}/login`,
